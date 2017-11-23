@@ -1,0 +1,10 @@
+# Ejercicios de Prolog
+
+1) Definir la relación penúltimo(X, L) que se verifique si X es el penúltimo elemento de la lista L, de
+dos formas: por recursión y haciendo uso del predicado append.
+
+[H|T]
+append(L1,L2,L3) -> "append" concatena dos listas ----> Ej: [1,2] [2,3,4] = [1,2,2,3,4]
+
+penultimo(X,L) :-
+      append().
